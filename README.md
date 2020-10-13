@@ -1,4 +1,4 @@
-# Delphi.-Basics-of-algorithmization-and-programming.-Control-work
+# Delphi. Basics of algorithmization and programming. Control work
 
 1. Перечислите и опишите основные свойства объектов
 2. Дайте описание компонентов для установки связи с базой данных. Алгоритм установки связи в базе данных.
