@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 988
+  Top = 174
+  Width = 344
+  Height = 261
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 16
+    Top = 16
+    Width = 149
+    Height = 13
+    Caption = #1042#1074#1077#1076#1080#1090#1077' '#1085#1086#1074#1099#1077' '#1082#1086#1086#1088#1078#1076#1080#1085#1072#1090#1099
+  end
+  object Edit1: TEdit
+    Left = 16
+    Top = 40
+    Width = 57
+    Height = 21
+    TabOrder = 0
+    Text = '0'
+    OnKeyPress = Edit1KeyPress
+  end
+  object Button1: TButton
+    Left = 16
+    Top = 72
+    Width = 145
+    Height = 25
+    Caption = #1057#1073#1088#1086#1089
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Edit2: TEdit
+    Left = 104
+    Top = 40
+    Width = 57
+    Height = 21
+    TabOrder = 2
+    Text = '0'
+    OnKeyPress = Edit1KeyPress
+  end
+  object Button2: TButton
+    Left = 16
+    Top = 104
+    Width = 145
+    Height = 25
+    Caption = #1055#1077#1088#1077#1084#1077#1089#1090#1080#1090#1100
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 16
+    Top = 136
+    Width = 145
+    Height = 25
+    Caption = #1042#1099#1093#1086#1076
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object MainMenu1: TMainMenu
+    Left = 328
+    Top = 65528
+    object N1: TMenuItem
+      Caption = #1057#1073#1088#1086#1089
+      OnClick = Button1Click
+    end
+    object N2: TMenuItem
+      Caption = #1055#1077#1088#1077#1084#1077#1089#1090#1080#1090#1100
+      OnClick = Button2Click
+    end
+    object N3: TMenuItem
+      Caption = #1042#1099#1093#1086#1076
+      OnClick = Button3Click
+    end
+  end
+end
